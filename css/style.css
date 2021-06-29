@@ -1,0 +1,66 @@
+/*
+Bootstrap 5 breakpointy:
+X-Small							None	<576px
+Small								sm		≥576px
+Medium							md		≥768px
+Large								lg		≥992px
+Extra large					xl		≥1200px
+Extra extra large		xxl		≥1400px
+
+Barvy
+růžová: #c5308a
+světle šedá: #f0f0f0
+*/
+
+/* --- pod tuto čáru piš svoje CSS --- */
+body {
+  font-family: 'Lora', serif;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+h3 {
+  color: #c5308a;
+}
+
+/*.bg-light {
+  background-color: darksalmon !important ;
+}*/
+
+.foto {
+  filter: grayscale(100%);
+}
+.foto:hover {
+  filter: grayscale(0%);
+}
+.nav-link {
+  color: white !important;
+}
+.bg-pink {
+  background-color: #c5308a !important;
+  color: white;
+}
+.bg-light {
+  background-color: #f0f0f0 !important;
+}
+li.nav-item:hover {
+  background-color: #c5308a;
+}
+.navbar-dark .navbar-brand {
+  color: #c5308a;
+}
+/*.navbar {
+  padding: 10px;
+}*/
+img.rounded-circle {
+  border-style: dotted;
+  border-color: #c5308a;
+}
